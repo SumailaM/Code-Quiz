@@ -8,23 +8,35 @@
     <script defer src="script.js"></script>
 </head>
 <body>
-    <h1>Coding Quiz</h1>
-    <div class="container"> 
-        <div id="question-conatiner" class="hide">
-            <div id="question">Commonly used data types Do not Include:</div>
-            <!-- Buttons allow use to pick answer -->
-            <div id="answer buttons" class="btn-grid">
-                <button class="btn">1.strings</button>
-                <button class="btn">2.booleans</button>
-                <button class="btn">3.alerts</button>
-                <button class="btn">4.numbers</button>
-            </div>
-        </div>
-        <div class="controls"> 
-            <button id="start-btn" class="start-btn btn">Start</button>
-            <button id="next-btn" class="next-btn btn hide">Next</button>
-        </div>
-    </div>
+    <h1>Code Quiz</h1>
+    <p>Test your knowledge of coding!</p>
+    
+    <form id="quiz-form">
+        <h2>Question 1</h2>
+        <p>What does HTML stand for?</p>
+        
+        <input type="radio" name="q1" value="a"> a) Hyper Text Markup Language<br>
+        <input type="radio" name="q1" value="b"> b) Hyperlink and Text Markup Language<br>
+        <input type="radio" name="q1" value="c"> c) Home Tool Markup Language<br>
+        
+        <h2>Question 2</h2>
+        <p>What is the correct way to comment out code in HTML?</p>
+        
+        <input type="radio" name="q2" value="a"> a) &lt;!--This is a comment--&gt;<br>
+        <input type="radio" name="q2" value="b"> b) //This is a comment<br>
+        <input type="radio" name="q2" value="c"> c) /*This is a comment*/<br>
+        
+        <h2>Question 3</h2>
+        <p>Which tag is used to create an ordered list in HTML?</p>
+        
+        <input type="radio" name="q3" value="a"> a) &lt;ol&gt;<br>
+        <input type="radio" name="q3" value="b"> b) &lt;ul&gt;<br>
+        <input type="radio" name="q3" value="c"> c) &lt;li&gt;<br>
+        
+        <input type="submit" value="Submit">
+    </form>
+    
+    <div id="quiz-results"></div>
     
 </body>
 </html>

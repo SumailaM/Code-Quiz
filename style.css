@@ -1,12 +1,18 @@
-*, *::before, *::after {
-    box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+/* Style the quiz container */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
 }
 
-:root{
-
+h1 {
+    color: #333;
 }
-body{
-    
+
+#quiz-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
