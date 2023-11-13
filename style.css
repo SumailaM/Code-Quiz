@@ -38,3 +38,16 @@ body {
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
+  
+  #endScreen {
+    display: none;
+  }
+  
+  #endScreen input[type="text"] {
+    width: 200px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  }
+  
