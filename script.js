@@ -1,4 +1,4 @@
-// Used to retrieve the elements for each
+// Java script questions
 const quizContainer = document.getElementById("quizContainer");
 const startButton = document.getElementById("startButton");
 const timerElement = document.getElementById("timer");
@@ -11,7 +11,7 @@ const saveScoreButton = document.getElementById("saveScore");
 const viewHighScoresButton = document.getElementById("viewHighScores");
 const highScoresList = document.getElementById("highScoresList");
 
-let quizQuestions = []; 
+let quizQuestions = []; // Add your JavaScript questions here
 let timer;
 let currentQuestionIndex = 0;
 let score = 0;

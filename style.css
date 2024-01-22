@@ -1,3 +1,4 @@
+/* Reset some default styles */
 body,
 ul,
 li {
@@ -5,49 +6,96 @@ li {
   padding: 0;
   list-style: none;
 }
-/* Style for the body . also shows font family */
+
+/* Style for the body  */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    text-align: center;
-  }
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  text-align: center;
+}
 
-  h1 {
-    margin: 20px 0;
-  }
+h1 {
+  margin: 20px 0;
+}
 
-  button {
-    font-size: 16px;
-    padding: 10px 20px;
-    margin: 10px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    outline: none;
-  }
-  
-  button:hover {
-    background-color: #0056b3;
-  }
+button {
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  outline: none;
+}
 
-  #quizContainer {
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  #endScreen {
-    display: none;
-  }
-  
-  #endScreen input[type="text"] {
-    width: 200px;
+button:hover {
+  background-color: #0056b3;
+}
+
+#quizContainer {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#endScreen {
+  display: none;
+}
+
+#endScreen input[type="text"] {
+  width: 200px;
   padding: 10px;
   margin: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  }
-  
+}
+
+#highScoresPage {
+  display: none;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#highScoresList {
+  padding: 0;
+}
+
+#highScoresList li {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* Styling for options buttons */
+#options button {
+  font-size: 16px;
+  padding: 10px 20px;
+  margin: 5px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  outline: none;
+}
+
+#options button:hover {
+  background-color: #0056b3;
+}
+
+/* Timer style */
+#timer {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+/* Result style */
+#result {
+  font-size: 20px;
+  margin: 10px 0;
+  color: #ff0000;
+}

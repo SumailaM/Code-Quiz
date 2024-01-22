@@ -1,29 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Code Quiz</title>
-</head>
-<body>
-  <h1>JavaScript Fundamentals Quiz</h1>
-  <button id="startbutton">Start Quiz</button><!-- Allows user to start quiz -->
-  <div id="quizContainer">
-    <h2 id="question">Question</h2>
-    <div id="options"></div>
-    <div id="timer">Time: 60 seconds</div>
-  </div>
-<div id="endScreen" style="display: none;">
-  <h2 id="score">Your Score: 0</h2>
-  <input type="text" id="initials" placeholder="Enter your initials">
-  <button id="saveScore">Save Score</button><!-- allows user to save score after quiz -->
-  <button id="viewHighScores">View High Scores</button>
-</div>
-  <div id="highScoresPage" style="display: none;">
-  <h2>HighScores</h2>
-  <ul id="highScoreList"></ul>
-</div>
-<script src="script.js"></script>
-</body>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h1>JavaScript Fundamentals Quiz</h1>
+    <button id="startButton">Start Quiz</button>
+    <div id="quizContainer" style="display: none;">
+      <h2 id="question">Question</h2>
+      <div id="options"></div>
+      <div id="timer">Time: 60 seconds</div>
+    </div>
+    <div id="endScreen" style="display: none;">
+      <h2 id="score">Your Score: 0</h2>
+      <input type="text" id="initials" placeholder="Enter your initials">
+      <button id="saveScore">Save Score</button>
+      <button id="viewHighScores">View High Scores</button>
+    </div>
+    <div id="highScoresPage" style="display: none;">
+      <h2>High Scores</h2>
+      <ul id="highScoresList"></ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
